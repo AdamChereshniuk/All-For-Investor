@@ -18,14 +18,14 @@ function App() {
         <Sidebar />
         <Routes>
           <Route path="/All-For-Investor" element={<MainPage />} />
-          <Route path="/portfolio-by-token-page" element={<PortfolioByTokenPage />} />
-          <Route path="/bonds-screener" element={<BondsScreenerPage />} />
-          <Route path="/deposits-calc" element={<DepositsCalcPage />} />
-          <Route path="/bonds-calc" element={<BondsCalcPage />} />
-          <Route path="/investments-calc" element={<InvestmentsCalcPage />} />
-          <Route path="/shares-screener" element={<SharesScreenerPage />} />
-          <Route path="/ready-portfolios" element={<ReadyPortfoliosPage />} />
-          <Route path="/ready-portfolio/:id" element={<ReadyPortfolioPage />} />
+          <Route path="/All-For-Investor/portfolio-by-token-page" element={<PortfolioByTokenPage />} />
+          <Route path="/All-For-Investor/bonds-screener" element={<BondsScreenerPage />} />
+          <Route path="/All-For-Investor/deposits-calc" element={<DepositsCalcPage />} />
+          <Route path="/All-For-Investor/bonds-calc" element={<BondsCalcPage />} />
+          <Route path="/All-For-Investor/investments-calc" element={<InvestmentsCalcPage />} />
+          <Route path="/All-For-Investor/shares-screener" element={<SharesScreenerPage />} />
+          <Route path="/All-For-Investor/ready-portfolios" element={<ReadyPortfoliosPage />} />
+          <Route path="/All-For-Investor/ready-portfolio/:id" element={<ReadyPortfolioPage />} />
         </Routes>
       </BrowserRouter>
     </div>
