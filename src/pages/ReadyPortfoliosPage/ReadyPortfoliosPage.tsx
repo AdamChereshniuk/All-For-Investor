@@ -13,7 +13,7 @@ export const ReadyPortfoliosPage = () => {
                     {readyPortfolios.map(portfolio => {
                         return (
                             <li className="ready-portfolios-page__item">
-                                <Link className="ready-portfolios-page__item-link" to={`/ready-portfolio/${portfolio.id}`}>
+                                <Link className="ready-portfolios-page__item-link" to={`/All-For-Investor/ready-portfolio/${portfolio.id}`}>
                                     <img className="ready-portfolios-page__item-img" src={portfolio.imageUrl} alt={portfolio.name} />
                                     <div className="ready-portfolios-page__item-content">
                                         <h2 className="ready-portfolios-page__item-title">{portfolio.name}</h2>
