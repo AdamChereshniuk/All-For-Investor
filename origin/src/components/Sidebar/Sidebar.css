@@ -1,0 +1,25 @@
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 300px;
+    height: 100vh;
+    padding: 30px;
+    border-right: 2px solid #000;
+}
+
+.side-bar__logo > img {
+    width: 108px;
+    height: 40px;
+}
+
+.side-bar__list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.side-bar__item > a {
+    font-weight: 500;
+    color: #000;
+}
