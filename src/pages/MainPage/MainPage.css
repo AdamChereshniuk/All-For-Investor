@@ -1,0 +1,8 @@
+.main-page {
+    height: 100vh;
+    overflow: scroll;
+}
+
+.main-page::-webkit-scrollbar {
+    display: none;
+}

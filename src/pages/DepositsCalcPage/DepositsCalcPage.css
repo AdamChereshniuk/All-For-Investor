@@ -1,0 +1,120 @@
+.deposits-calc-page {
+    height: 100vh;
+    overflow: scroll;
+}
+
+.deposits-calc-page::-webkit-scrollbar {
+    display: none;
+}
+
+.deposits-calc-page__params {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    max-width: 1150px;
+}
+
+.deposits-calc-page__param {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 16px;
+}
+
+.deposits-calc-page__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 52px;
+}
+
+.deposits-calc-page__param-input {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.deposits-calc-page__param-topup-input {
+    width: 100%;
+    max-width: 200px;
+}
+
+.deposits-calc-page__param-currency {
+    font-size: 18px;
+    appearance: none;
+}
+
+.deposits-calc-page__param-currency-select {
+    border: 1px solid #000;
+    padding: 12px;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.deposits-calc-page__param-topup-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.deposits-calc-page__param-topup-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.deposits-calc-page__param-topup {
+    align-items: flex-start;
+}
+
+.deposits-calc-page__param-topup-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #F59300;
+    font-size: 18px;
+    font-weight: 500;
+}
+.deposits-calc-page__btn:disabled {
+    background-color: #ccc;
+    color: #666666;
+    cursor: not-allowed;
+}
+
+.deposits-calc-page__param-topup-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.deposits-calc-page__result {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 32px;
+    border-radius: 10px;
+    border: 3px solid #F59300;
+    width: 100%;
+    max-width: 800px;
+}
+
+.deposits-calc-page__result-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.deposits-calc-page__result-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.deposits-calc-page__result-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 24px;
+    padding: 16px 0;
+    border-bottom: 1px solid #000;
+}
