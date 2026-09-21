@@ -17,7 +17,7 @@ function App() {
       <BrowserRouter>
         <Sidebar />
         <Routes>
-          <Route path="/main" element={<MainPage />} />
+          <Route path="/All-For-Investor" element={<MainPage />} />
           <Route path="/portfolio-by-token-page" element={<PortfolioByTokenPage />} />
           <Route path="/bonds-screener" element={<BondsScreenerPage />} />
           <Route path="/deposits-calc" element={<DepositsCalcPage />} />
