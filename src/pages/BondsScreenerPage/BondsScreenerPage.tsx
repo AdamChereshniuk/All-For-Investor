@@ -67,6 +67,8 @@ export const BondsScreenerPage = () => {
         setSectorFilterValue("");
         setCuoponQuantityFilterValue("");
         setCurrencyFilterValue("");
+        setAmortizationFilterValue("");
+        setCuoponTypeFilterValue("");
     };
     useEffect(() => {
         if(sectorFilterValue == "") {

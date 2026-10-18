@@ -5,7 +5,7 @@ import "./Sidebar.css";
 export const Sidebar = () => {
     return (
         <div className="side-bar">
-            <Link className="side-bar__logo" to="/">
+            <Link className="side-bar__logo" to="/All-For-Investor">
                 <img src={logo} alt="Лого" />
             </Link>
 
